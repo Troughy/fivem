@@ -60,10 +60,10 @@ async function update() {
 		console.log("Fivem up-to-date!")
 	}
 }
-setInterval(()=>{
+/*setInterval(()=>{
     (async () => {
         update()
     })();
-},60*60*1000);
+},60*60*1000);*/
 (async ()=>{update()})();
-console.log("Server running.")
+//console.log("Server running.")
