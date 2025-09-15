@@ -13,6 +13,7 @@ async function getActiveHref(url) {
   const page = await browser.newPage();
 
   try {
+	page.setDefaultNavigationTimeout(0);
     await page.goto(url, { waitUntil: 'domcontentloaded' });
 
     const containerSelector =
