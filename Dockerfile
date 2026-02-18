@@ -1,6 +1,6 @@
 FROM debian:latest
 
-ARG FIVEM_VER=25963-0cf81ec5431c8d3aada6f95500f9a58b292aeab8
+ARG FIVEM_VER=25987-0cf81ec5431c8d3aada6f95500f9a58b292aeab8
 
 WORKDIR /fivem
 
